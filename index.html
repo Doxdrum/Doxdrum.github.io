@@ -13,6 +13,8 @@
         <h1 class="masthead-title"><a href="http://Doxdrum.github.io/">Personal page</a> <span class="subtitle">(Here it is!)</span></h1>
         <ul>
           <li><a href="http://Doxdrum.github.io/blog/">Blog</a></li>
+          <li><a href="http://Doxdrum.github.io/media/">Media</a></li>
+          <li><a href="http://Doxdrum.github.io/tags/">Tags</a></li>
           <li><a href="http://Doxdrum.github.io/tags/">Tags</a></li>
           <li><a href="http://Doxdrum.github.io/about/">About</a></li>
           <li><a href="https://github.com/Doxdrum/Doxdrum.github.io">Github</a></li>
@@ -34,28 +36,32 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgd91d7d8">1. There is light!</a></li>
-<li><a href="#orgc5ea5ca">2. My first post</a></li>
+<li><a href="#org85a7e31">1. A useful link for <code>MathJax</code> quick help</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd91d7d8" class="outline-2">
-<h2 id="orgd91d7d8"><span class="section-number-2">1</span> There is light!</h2>
+<div id="outline-container-org85a7e31" class="outline-2">
+<h2 id="org85a7e31"><span class="section-number-2">1</span> A useful link for <code>MathJax</code> quick help</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-I'm still trying to get this working.
+Lately, I've been using a <code>js</code> script, called <code>reveal</code>, to prepare a
+presentation. Among the nice things is that one can enable the
+equivalent to the <i>AMS</i> \LaTeX\ package using the string
 </p>
+<div class="org-src-container">
+<pre class="src src-html">&lt;<span style="color: #daa520;">script</span> <span style="color: #4eee94;">type</span>=<span style="color: #deb887;">"text/javascript"</span> <span style="color: #4eee94;">src</span>=<span style="color: #deb887;">"https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"</span>&gt;&lt;/<span style="color: #daa520;">script</span>&gt;
+</pre>
 </div>
-</div>
-<div id="outline-container-orgc5ea5ca" class="outline-2">
-<h2 id="orgc5ea5ca"><span class="section-number-2">2</span> My first post</h2>
-<div class="outline-text-2" id="text-2">
 <p>
-Welcome to myself!
+in the head of the <code>html</code> file, of within <code>org-mode</code> use
 </p>
+<div class="org-src-container">
+<pre class="src src-org"><span style="color: #7f7f7f;">#+REVEAL_MATHJAX_URL: <a href="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML</a></span>
+</pre>
+</div>
 
 <p>
-I'm trying to get <code>org2web</code> publishing method running with <code>github pages</code>.
+Now, to start using the <i>AMS</i> features, see this <a href="https://math.meta.stackexchange.com/q/5020/50338">post</a>.
 </p>
 </div>
 </div>
